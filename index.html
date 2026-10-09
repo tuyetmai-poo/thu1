@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Đăng nhập tài khoản</title>
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- CSS tùy chỉnh -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-center">
+
+    <main class="form-signin">
+        <form>
+            <!-- Logo Bootstrap SVG chuẩn -->
+            <svg class="mb-4" xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 118 94" role="img">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.077 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.509zM34.847 21.218h21.574c8.452 0 13.974 4.056 13.974 10.58 0 4.887-3.135 8.77-7.962 9.874v.252c5.88 1.027 9.68 5.49 9.68 11.368 0 7.794-6.54 12.52-15.54 12.52H34.847V21.218zm9.52 17.658h9.814c4.156 0 6.643-2.064 6.643-5.263 0-3.33-2.487-5.263-6.643-5.263H44.367v10.526zm0 21.734h10.742c4.85 0 7.726-2.19 7.726-5.842 0-3.79-2.876-6.04-7.726-6.04H44.367v11.882z" fill="#7952b3"></path>
+            </svg>
+
+            <h1 class="h3 mb-3 fw-normal">Vui lòng đăng nhập</h1>
+
+            <!-- Ô nhập Email -->
+            <input type="email" id="inputEmail" class="form-control" placeholder="Địa chỉ email" required autofocus>
+
+            <!-- Ô nhập Mật khẩu -->
+            <input type="password" id="inputPassword" class="form-control" placeholder="Mật khẩu" required>
+
+            <!-- Checkbox Ghi nhớ -->
+            <div class="checkbox mb-3 text-start">
+                <label>
+                    <input type="checkbox" value="remember-me"> Ghi nhớ đăng nhập
+                </label>
+            </div>
+
+            <!-- Nút Submit (dùng class w-100 của Bootstrap 5 thay cho btn-block) -->
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Đăng nhập</button>
+
+            <p class="mt-5 mb-3 text-muted">&copy; 2026</p>
+        </form>
+    </main>
+
+    <!-- Bootstrap 5 Bundle JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+</body>
+</html>
